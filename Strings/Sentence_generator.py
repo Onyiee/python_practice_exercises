@@ -12,16 +12,13 @@
 from random import randint
 import random
 
-
 articles: list = ["the", "a", "one", "some", "any"]
 nouns: list = ["boy", "girl", "dog", "town", "car"]
 verbs = ["drove", "jumped", "ran", "walked", "skipped"]
 prepositions = ["to", "from", "over", "under", "on"]
 
-print(random.choice(articles))
-
 for _ in range(20):
-    sentence = "{} {} {} {} {} {}." .format(
+    sentence = "{} {} {} {} {} {}.".format(
         random.choice(articles),
         random.choice(nouns),
         random.choice(verbs),
